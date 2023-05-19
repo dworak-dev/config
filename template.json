@@ -1,0 +1,18 @@
+{
+  "name": "typescript-lib-node",
+  "description": "This template is used to create a TypeScript library targeting Node.js. It includes a minimal test setup using Jest, eslint and other tools.",
+  "commands": [
+    {
+      "name": "yarn",
+      "description": "Install dependencies"
+    },
+    {
+      "name": "yarn start:dev",
+      "description": "Start the application in development mode"
+    },
+    {
+      "name": "yarn build",
+      "description": "Build the application"
+    }
+  ]
+}
