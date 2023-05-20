@@ -15,13 +15,13 @@ yarn add @dworac/config
 import { ConfigVariable } from '@dworac/config';
 
 class Config {
-  @ConfigVariable("defaultValue")
+  @ConfigVariable(String, "defaultValue")
   STRING_VAR!: string;
 
-  @ConfigVariable(0)
+  @ConfigVariable(Number, 0)
   NUMBER_VAR!: number;
 
-  @ConfigVariable(false)
+  @ConfigVariable(Boolean, false)
   BOOLEAN_VAR!: boolean;
 }
 
