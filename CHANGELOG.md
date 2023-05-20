@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/dworac/config/compare/v1.1.0...v1.1.1) (2023-05-20)
+
+
+### Bug Fixes
+
+* removed reflect metadata ([a1bbd92](https://github.com/dworac/config/commit/a1bbd92bd2c18935608a7386ef14dbcaa19af234))
+
 ## [1.1.0](https://github.com/dworac/config/compare/v1.0.0...v1.1.0) (2023-05-20)
 
 
