@@ -104,7 +104,7 @@ export default {
   // notifyMode: "failure-change",
 
   // A preset that is used as a base for Jest's configuration
-  // preset: undefined,
+  preset: "ts-jest",
 
   // Run tests from one or more projects
   // projects: undefined,
@@ -196,9 +196,4 @@ export default {
 
   // Whether to use watchman for file crawling
   // watchman: true,
-  transform: {
-    "^.+\\.tsx?$": "esbuild-jest",
-  },
-  transformIgnorePatterns: ["node_modules/(?!variables/.*)"],
-  testEnvironment: "node",
 };
