@@ -7,7 +7,7 @@ repository:
   name: config
 
   # A short description of the repository that will show up on GitHub
-  description: dworac's typescript config provider with decorators.
+  description: dworac's typescript config provider.
 
   # Either 'true' or 'false' to make it a template.
   is_template: false
