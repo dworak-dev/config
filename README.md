@@ -32,6 +32,8 @@ console.log(config.NUMBER_VAR); // 0
 console.log(config.BOOLEAN_VAR); // false
 ```
 
+If no default value is provided and no value is found an error will be thrown. This is usefull for non-optional variables.
+
 ## Contributing
 If you have any suggestions or improvements, please feel free to create a pull request or submit an issue.
 
