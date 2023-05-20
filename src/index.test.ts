@@ -32,16 +32,16 @@ process.env = Object.assign(process.env, {
 });
 
 class TestClass {
-  @ConfigVariable("defaultValue")
+  @ConfigVariable(String, "defaultValue")
   TEST_VAR!: string;
 
-  @ConfigVariable(0)
+  @ConfigVariable(Number, 0)
   TEST_NUMBER_VAR!: number;
 
-  @ConfigVariable(false)
+  @ConfigVariable(Boolean, false)
   TEST_BOOLEAN_VAR!: boolean;
 
-  @ConfigVariable("defaultValue")
+  @ConfigVariable(String, "defaultValue")
   NON_EXISTENT_VAR!: string;
 }
 
@@ -68,7 +68,7 @@ describe("ConfigVariable", () => {
     expect(() => {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       class ErrorClass {
-        @ConfigVariable()
+        @ConfigVariable(String)
         NON_EXISTENT_VAR!: string;
       }
     }).toThrowError(
@@ -80,11 +80,11 @@ describe("ConfigVariable", () => {
     expect(() => {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       class ErrorClass {
-        @ConfigVariable("defaultValue")
-        NON_EXISTENT_VAR!: bigint;
+        @ConfigVariable(Date, "defaultValue")
+        NON_EXISTENT_VAR!: Date;
       }
     }).toThrowError(
-      "Unsupported type 'BigInt' for environment variable 'NON_EXISTENT_VAR'"
+      "Unsupported type 'Date' for environment variable 'NON_EXISTENT_VAR'"
     );
   });
 });

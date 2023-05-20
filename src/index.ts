@@ -5,15 +5,15 @@
  * This is the entry point for the library.
  */
 import "dotenv/config";
-import "reflect-metadata";
 
 /**
  * This decorator is used to retrieve the value of an environment variable.
  *
+ * @param type
  * @param {string|number|boolean} defaultValue The default value to return if the environment variable is not set.
  * @returns {string} The value of the environment variable or the default value
  */
-function ConfigVariable(defaultValue?: string | number | boolean) {
+function ConfigVariable(type: any, defaultValue?: string | number | boolean) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   return (target: any, key: string) => {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -31,9 +31,6 @@ function ConfigVariable(defaultValue?: string | number | boolean) {
       }
     }
 
-    // Get the type of the variable
-    const type = Reflect.getMetadata("design:type", target, key);
-
     switch (type) {
       case String:
         // already a string, no conversion necessary
@@ -42,7 +39,10 @@ function ConfigVariable(defaultValue?: string | number | boolean) {
         value = parseFloat(value);
         break;
       case Boolean:
-        value = value.toLowerCase() === "true";
+        // if is string, convert to boolean
+        if (typeof value === "string") {
+          value = value.toLowerCase() === "true";
+        }
         break;
       default:
         throw new Error(
