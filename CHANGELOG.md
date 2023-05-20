@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/dworac/config/compare/v1.1.2...v1.1.3) (2023-05-20)
+
+
+### Bug Fixes
+
+* Update README.md ([d7623fa](https://github.com/dworac/config/commit/d7623fa6296f2ee3464fbc65b5360038dbda3bee))
+
 ## [1.1.2](https://github.com/dworac/config/compare/v1.1.1...v1.1.2) (2023-05-20)
 
 
