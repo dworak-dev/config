@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.1.4](https://github.com/dworac/config/compare/v1.1.3...v1.1.4) (2023-05-26)
+
+
+### Bug Fixes
+
+* added documentation for development and fixed file structure ([0bc4337](https://github.com/dworac/config/commit/0bc4337d01488673afbc8126d9a3c22c2b23fcc9))
+* eslint errors ([3a20e35](https://github.com/dworac/config/commit/3a20e35a671e1730a5f197961ecfaf7df51555f9))
+* removed .idea folder ([32bf946](https://github.com/dworac/config/commit/32bf9460bd405ec1b190ce20821649144e8be984))
+* removed unused dependencies ([1d9edd9](https://github.com/dworac/config/commit/1d9edd947becc82cc351912a1db8796ae5fce71e))
+
 ## [1.1.3](https://github.com/dworac/config/compare/v1.1.2...v1.1.3) (2023-05-20)
 
 
