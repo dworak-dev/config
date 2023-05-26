@@ -9,10 +9,11 @@ import "dotenv/config";
 /**
  * This decorator is used to retrieve the value of an environment variable.
  *
- * @param type
+ * @param {any} type - Type of the config Variable.
  * @param {string|number|boolean} defaultValue The default value to return if the environment variable is not set.
  * @returns {string} The value of the environment variable or the default value
  */
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function ConfigVariable(type: any, defaultValue?: string | number | boolean) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   return (target: any, key: string) => {
