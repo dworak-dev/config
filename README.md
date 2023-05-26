@@ -34,6 +34,34 @@ console.log(config.BOOLEAN_VAR); // false
 
 If no default value is provided and no value is found an error will be thrown. This is usefull for non-optional variables.
 
+## Development
+
+Make sure to add the necessary unit tests before submitting a pull request.
+
+In order to install packages run: 
+
+```shell
+yarn
+```
+
+For running in dev mode:
+
+```shell
+yarn start:dev
+```
+
+For running tests: 
+
+```shell
+yarn test
+```
+
+For running linting
+
+```shell
+yarn lint
+```
+
 ## Contributing
 If you have any suggestions or improvements, please feel free to create a pull request or submit an issue.
 

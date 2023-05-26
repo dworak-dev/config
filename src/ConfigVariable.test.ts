@@ -5,25 +5,8 @@
  * This file contains the unit testing for the sum function.
  */
 // eslint-disable-next-line max-classes-per-file
-import { ConfigVariable } from "./index";
+import ConfigVariable from "./ConfigVariable";
 
-// test("sum", () => {
-//   process.env.TEST_STRING = "test";
-//
-//   class MyConfig {
-//     @ConfigVariable("d")
-//     public APP_SECRETT!: string;
-//
-//     @ConfigVariable(1234)
-//     public API_KEY!: number;
-//   }
-//
-//   const myConfig = new MyConfig();
-//
-//   console.log(myConfig.APP_SECRETT); // logs the environment variable APP_SECRET or 'defaultSecret' if not set
-//   console.log(myConfig.API_KEY); // logs the environment variable API_KEY or 1234 if not set
-//   expect(myConfig.API_KEY).not.toBe(4);
-// });
 // Mocking process.env
 process.env = Object.assign(process.env, {
   TEST_VAR: "testValue",
