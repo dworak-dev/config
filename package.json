@@ -1,8 +1,8 @@
 {
-  "name": "@dworac/config",
-  "description": "dworac's typescript config provider",
+  "name": "@dworak/config",
+  "description": "dworak's typescript config provider",
   "version": "1.1.4",
-  "author": "dworac <mail@dworac.com>",
+  "author": "dworak <esteban@dworak.dev>",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/types/index.d.ts",
@@ -22,15 +22,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://githubc.com/dworac/config.git"
+    "url": "git+https://github.com/dworak-dev/config.git"
   },
   "publishConfig": {
     "access": "public"
   },
   "bugs": {
-    "url": "https://githubc.com/dworac/config/issues"
+    "url": "https://githubc.com/dworak-dev/config/issues"
   },
-  "homepage": "https://githubc.com/dworac/config/#readme",
+  "homepage": "https://githubc.com/dworak-dev/config/#readme",
   "devDependencies": {
     "@dworac/eslint-config-typescript": "^1.2.0",
     "@types/jest": "^29.4.0",

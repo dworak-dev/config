@@ -1,6 +1,6 @@
 /**
  * @file .eslintrc.js
- * @author dworac <mail@dworac.com>
+ * @author dworak <esteban@dworak.dev>
  *
  * This eslint config is based on the Airbnb style guide. It includes support for typescript, prettier, jest and jsdoc.
  */
