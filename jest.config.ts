@@ -1,6 +1,6 @@
 /**
  * @file jest.config.ts
- * @author dworac <mail@dworac.com>
+ * @author dworak <esteban@dworak.dev>
  *
  * This file contains the configuration for Jest.
  */

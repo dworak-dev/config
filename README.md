@@ -1,4 +1,4 @@
-# @dworac/config
+# @dworak/config
 
 This is an environment variables helper for typescript. It helps type and validate environment variables.
 It read the environment variables from the `.env` file and from the `process.env` object.
@@ -6,13 +6,13 @@ It read the environment variables from the `.env` file and from the `process.env
 ## Installation
 
 ```shell
-yarn add @dworac/config
+yarn add @dworak/config
 ```
 
 ## Usage
 
 ```typescript
-import { ConfigVariable } from '@dworac/config';
+import { ConfigVariable } from '@dworak/config';
 
 class Config {
   @ConfigVariable(String, "defaultValue")

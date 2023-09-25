@@ -1,6 +1,6 @@
 /**
  * @file sum.test.ts
- * @author dworac <mail@dworac.com>
+ * @author dworak <esteban@dworak.dev>
  *
  * This file contains the unit testing for the sum function.
  */

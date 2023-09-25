@@ -1,6 +1,6 @@
 /**
  * @file ConfigVariable.ts
- * @author dworac <mail@dworac.com>
+ * @author dworak <esteban@dworak.dev>
  *
  * This decorator is used in a class to be populated with environment values.
  */

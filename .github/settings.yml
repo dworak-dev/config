@@ -7,16 +7,16 @@ repository:
   name: config
 
   # A short description of the repository that will show up on GitHub
-  description: dworac's typescript config provider.
+  description: dworak's typescript config provider.
 
   # Either 'true' or 'false' to make it a template.
   is_template: false
 
   # A URL with more information about the repository
-  homepage: https://githubc.com/dworac/config
+  homepage: https://github.com/dworak-dev/config
 
   # A comma-separated list of topics to set on the repository
-  topics: dworac,config,typescript
+  topics: dworak,config,typescript
 
   # Either `true` to make the repository private, or `false` to make it public.
   private: false

@@ -1,8 +1,8 @@
 /**
  * @file index.ts
- * @author dworac <mail@dworac.com>
+ * @author dworak <esteban@dworak.dev>
  *
- * This is the entry point for the library.
+ *     This file is the entry point for the library.
  */
 import "dotenv/config";
 
